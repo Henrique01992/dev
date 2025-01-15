@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios</title>
+<style>
+
+body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+        
+    th {
+        border: 1px solid black;
+        padding: 10px;
+       
+    }
+    thead ,tfoot {
+        background-color: lightgray;
+    }
+    .tab{
+        background-color: lightgray;
+    }
+   
+
+</style>
+
+
+</head>
+<body>
+    <h1>Desafio 3</h1>
+
+
+    <table>
+        <caption>
+            Tabela
+        </caption>
+  
+    <thead>
+        <tr>
+            <th rowspan="2" scope="col">Área</th>
+            <th rowspan="2" scope="col">Disciplinas</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="col">Média</th>
+        </tr>
+        <tr>
+            <th scope="col">nota 1</th>
+            <th scope="col">nota 2</th>
+        </tr>
+    </thead>
+        <tr>
+            <th rowspan="4" Scope="rowgroup" >Exatas</th>
+            <td scope="row">Matemática</td>
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+        </tr>
+        <tr>
+            <td scope="row">Física</td scope="row">
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+        </tr>
+        <tr>
+            <td scope="row">Química</td scope="row">
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+    
+        </tr>
+        <tr>
+            <td scope="row">Biologia</td>
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+            <td scope="row">0.0</td>
+        </tr>
+
+<tbody>
+    
+                <tr>
+                    <th colspan="4" scope="colgroup" class="tab">Média de Exatas</th>
+                    <th class="tab" scope="col">0.0</th>
+                </tr>
+</tbody>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td scope="row">História</td>
+                <td scope="row">0.0</td>
+                <td scope="row">0.0</td>
+                <td scope="row">0.0</td>
+            </tr>
+            <tr>
+                <td scope="row">Geografia</td>
+                <td scope="row">0.0</td>
+                <td scope="row">0.0</td>
+                <td scope="row">0.0</td>
+            </tr>
+          
+          
+            <tfoot>
+                <tr>
+                    <th colspan="4"scope="row">Média Humanas</th>
+                    <th>0.0</th>
+                </tr>
+            </tfoot>
+
+
+    </table>
+</body>
+</html>
